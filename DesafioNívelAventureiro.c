@@ -76,17 +76,17 @@ int main (){
 
    if (linhaD1 + tamanhoD1 <= 10 && colunaD1 + tamanhoD1 <= 10)
    {
-    int sobreposição = 0;
+    int sobreposicao = 0;
 
     for (int i = 0; i < tamanhoD1; i++)
     {
         if (tabuleiro[linhaD1 + i][colunaD1 + i] != 0)
         {
-            sobreposição = 1;
+            sobreposicao = 1;
         }
     }
 
-    if (!sobreposição)
+    if (!sobreposicao)
     {
        for (int i = 0; i < tamanhoD1; i++)
        {
